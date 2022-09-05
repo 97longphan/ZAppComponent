@@ -32,7 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files  = "Sources/**/*"
   
-  s.resource_bundles = "Sources/**/*"
+  s.resource_bundles = {
+    'ZAppComponent' => ['Sources/**/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
