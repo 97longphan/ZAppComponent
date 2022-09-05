@@ -13,6 +13,7 @@
 		4B3E748728C5AC92005759B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E748528C5AC92005759B6 /* Main.storyboard */; };
 		4B3E748928C5AC93005759B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E748828C5AC93005759B6 /* Assets.xcassets */; };
 		4B3E748C28C5AC93005759B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E748A28C5AC93005759B6 /* LaunchScreen.storyboard */; };
+		4B47AFC828C5B2220001B74C /* AppAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B47AFC728C5B2220001B74C /* AppAsset.xcassets */; };
 		7402319A3036A734127F08B3 /* Pods_ZAppComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C0E7BF760180DB8D2F7046 /* Pods_ZAppComponent.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		4B3E748828C5AC93005759B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B3E748B28C5AC93005759B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B3E748D28C5AC93005759B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47AFC728C5B2220001B74C /* AppAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppAsset.xcassets; sourceTree = "<group>"; };
 		F5E1710CA20BA250E0C129EA /* Pods-ZAppComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAppComponent.debug.xcconfig"; path = "Target Support Files/Pods-ZAppComponent/Pods-ZAppComponent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +55,7 @@
 		4B3E747328C5AC92005759B6 = {
 			isa = PBXGroup;
 			children = (
+				4B47AFC628C5B2060001B74C /* Sources */,
 				4B3E747E28C5AC92005759B6 /* ZAppComponent */,
 				4B3E747D28C5AC92005759B6 /* Products */,
 				75D30AD25FF278DC461D7C87 /* Pods */,
@@ -80,6 +83,14 @@
 				4B3E748D28C5AC93005759B6 /* Info.plist */,
 			);
 			path = ZAppComponent;
+			sourceTree = "<group>";
+		};
+		4B47AFC628C5B2060001B74C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B47AFC728C5B2220001B74C /* AppAsset.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		75D30AD25FF278DC461D7C87 /* Pods */ = {
@@ -153,6 +164,7 @@
 			files = (
 				4B3E748C28C5AC93005759B6 /* LaunchScreen.storyboard in Resources */,
 				4B3E748928C5AC93005759B6 /* Assets.xcassets in Resources */,
+				4B47AFC828C5B2220001B74C /* AppAsset.xcassets in Resources */,
 				4B3E748728C5AC92005759B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
